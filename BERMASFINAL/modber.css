@@ -1,0 +1,584 @@
+@charset "utf-8";
+/* CSS Document */
+
+hr {
+  background-color: aliceblue;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 1px;
+}
+
+	
+
+h4{
+	margin-right: 50px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+h2{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+h1{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+
+}
+
+h5{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color:orange;
+}
+
+.parent {
+  width: 100%;
+  max-height: auto;
+  display: flex;
+}
+
+.child5 {
+  margin-left: 250px;
+  width: 384px;
+  height: 384px;
+  flex-grow: 2;
+}
+
+.child6 {
+  margin-top: 150px;
+  margin-right: 70px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  align-content: left;
+  width: 384px;
+  height: 384px;
+  color: orange;
+  flex-grow: 1;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: white;
+}
+h2 {
+  text-align: center;
+}
+
+
+
+p {
+  text-align: center;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.hero-box {
+  background-color: #262525;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  align-content: center;
+}
+
+.berlogo {
+  padding-left: 20px;
+  width: 150px;
+  height: auto;
+}
+
+.cart {
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+  float: right;
+}
+
+.hero-box h3 {
+  color: aliceblue;
+  display: inline-block;
+}
+
+.hero-box input {
+  float: right;
+}
+
+.hero-box h5 {
+  color: aliceblue;
+  display: inline-block;
+  float: right;
+}
+
+nav {
+  font-size: 15px;
+  position: sticky;
+  font-family: "Catamaran", sans-serif;
+  padding: 10px;
+  top: 0px;
+  background-color: #f47720;
+  z-index: 100;
+  text-shadow: 2px 2px #d83937;
+  box-shadow: 5px 4px #d83937;
+}
+
+nav ul {
+  white-space: nowrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav li {
+  width: 25%;
+  display: inline-block;
+}
+
+.toggle {
+  display: none;
+}
+
+nav li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+nav li a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+nav li {
+  margin-left: 15px;
+}
+
+.img-area {
+  padding-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.single-img {
+  padding: 20px;
+  width: 50%;
+  height: auto;
+}
+
+.imarea {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.sing-img1 {
+  cursor: pointer;
+  transition: 3s;
+}
+
+.sing-img2 {
+  cursor: pointer;
+}
+.sing-img3 {
+  cursor: pointer;
+}
+.sing-img4 {
+  cursor: pointer;
+}
+
+.sing-img1:hover {
+  background-image: url("immm/b1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sing-img2:hover {
+  background-image: url("immm/b2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sing-img3:hover {
+  background-image: url("immm/b3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sing-img4:hover {
+  background-image: url("immm/b4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imim {
+  opacity: 1;
+  transition: 1s;
+}
+.imim:hover {
+  opacity: 0;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+footer img {
+  max-height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+footer ul li {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+footer ul li a {
+  list-style-type: none;
+  color: aliceblue;
+}
+footer ul li a:hover {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+footer {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: #f47720;
+  color: aliceblue;
+  text-shadow: 2px 2px #d83937;
+  z-index: 200;
+  padding-bottom: 10px;
+}
+
+footer p {
+  text-align: center;
+  padding: 0% 20% 0% 20%;
+}
+
+footer ul {
+  display: inline-block;
+  list-style-type: none;
+
+  padding-top: 5%;
+  margin-left: 8%;
+  margin-right: 5%;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+ol {
+  display: block;
+  margin-right: 30%;
+  margin-left: 40%;
+  padding-top: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+
+ol li {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.mycontainer {
+  margin: 20%;
+  text-align: justify;
+}
+
+.dropdown {
+  display: inline;
+}
+
+.last {
+  display: none;
+}
+
+/* media queries*/
+@media screen and (max-width: 1300px) {
+  footer ul {
+    margin-left: 7%;
+    margin-right: 0%;
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .dropdown {
+    display: none;
+  }
+  nav h5 {
+    display: none;
+  }
+  nav input {
+    display: none;
+  }
+}
+@media screen and (max-width: 865px) {
+  .last {
+    display: block;
+    padding: none;
+    margin-right: 15%;
+  }
+
+  nav {
+    padding-top: 5px;
+    padding-bottom: 0;
+  }
+
+  nav h5 {
+    display: none;
+  }
+  .items {
+    display: none;
+  }
+
+  .hero-box input {
+    display: none;
+  }
+  .hero-box h5 {
+    display: none;
+  }
+
+  .hero-box h3 {
+    float: none;
+    font-size: medium;
+    text-align: center;
+    margin-left: 30%;
+  }
+  .berlogo {
+    display: block;
+    width: 150px;
+    margin-left: 40%;
+  }
+
+  footer ul {
+    display: none;
+  }
+}
+
+input {
+  float: right;
+}
+
+.carou {
+  width: 100%;
+  height: auto;
+}
+
+.parent {
+  position: absolute;
+  height: 100vh;
+  border: 20px white rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.trycontain {
+  width: 80%;
+  float: center;
+  margin: 5% 5% 5% 10%;
+  padding: 2.5%;
+}
+.child1 {
+  padding-left: 80px;
+  width: 300px;
+  height: 250px;
+  font-family: "Aladin", cursive;
+  align-content: center;
+  text-align: left;
+  max-width: 100%;
+  margin-bottom: 50px;
+  margin-top: 60px;
+}
+
+.child2 {
+  width: 300px;
+  height: 250px;
+  font-family: "Aladin", cursive;
+  color: darkgoldenrod;
+  align-content: center;
+  text-align: left;
+}
+
+.child3 {
+  width: 300px;
+  height: 250px;
+  background: red;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.child4 {
+  width: 300px;
+  height: 250px;
+  background: red;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 570px) {
+  .hero-box h3 {
+    font-size: medium;
+    margin-right: 10%;
+    margin-left: 20%;
+  }
+
+  .berlogo {
+    padding-left: 7px;
+    width: 100px;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+	
+	h4{
+	margin-right: 50px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+		align-items: center;
+		align-content: center;
+}
+
+h1{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	align-items: center;
+		align-content: center;
+
+}
+
+h5{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color:orange;
+	align-items: center;
+		align-content: center;
+}
+
+  .hero-box h3 {
+    display: none;
+  }
+
+  .berlogo {
+    padding-left: 0px;
+  }
+	
+.child5 {
+	margin-top: 10px;
+	margin-left: 165px;
+  width: 384px;
+  height: 384px;
+  flex-grow: 1;
+}
+	
+	.child6 {
+
+  margin-top: 40px;
+  margin-left: 75px;
+  margin-bottom: 10px;
+  align-content: center;
+		
+  width: 384px;
+  height: 384px;
+  color: orange;
+  flex-grow: 1;
+  font-family: "Montserrat", sans-serif;
+}
+	
+	@media screen and (max-width: 460px) {
+  .hero-box h3 {
+    display: none;
+  }
+
+  .berlogo {
+    padding-left: 0px;
+  }
+	
+.child5 {
+	float: left;
+	margin-top: 10px;
+	margin-left: 0px;
+  width: 300px;
+  height: 384px;
+  flex-grow: 1;
+}
+	
+	.child6 {
+  margin-top: 100px;
+  margin-left: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  align-content: center;
+		
+  width: 384px;
+  height: 384px;
+  color: orange;
+  flex-grow: 1;
+  font-family: "Montserrat", sans-serif;
+}
+
+  nav {
+    font-size: 20px;
+    position: sticky;
+    padding: 5px;
+    top: 0px;
+    background-color: #f47720;
+    z-index: 100;
+    text-shadow: none;
+    box-shadow: none;
+  }
+}
+	
+
+
+@media screen and (max-width: 980px) {
+  .cart {
+    display: none;
+  }
+
+  ol {
+    display: none;
+  }
+}
+	
+	@media screen and (max-width: 384px) {
+  .hero-box h3 {
+    display: none;
+  }
+
+  .berlogo {
+    padding-left: 0px;
+  }
+	
+.child5 {
+	margin-top: 10px;
+	margin-left: 0px;
+  width: 384px;
+  height: 384px;
+  flex-grow: 1;
+}
+	
+	.child6 {
+  margin-top: 100px;
+  margin-left: 10px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  align-content: center;
+		
+  width: 384px;
+  height: 384px;
+  color: orange;
+  flex-grow: 1;
+  font-family: "Montserrat", sans-serif;
+}
+
+  nav {
+    font-size: 20px;
+    position: sticky;
+    padding: 5px;
+    top: 0px;
+    background-color: #f47720;
+    z-index: 100;
+    text-shadow: none;
+    box-shadow: none;
+  }
+}
+}
